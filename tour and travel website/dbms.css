@@ -1,0 +1,115 @@
+body{
+  background-color: rgb(235, 230, 230);
+}
+
+header{
+   padding:-30px;
+    background-color: rgb(93, 151, 71);
+    background: url(http://www.imagetravelnepal.com/images/trip/trip1501581548.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-origin: border-box;
+    height: 400px;
+   align-items: center;
+   animation-name: pulse;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+
+}
+
+header:hover{
+   opacity: 1;
+    background-color: rgb(93, 151, 71);
+    background: url(http://www.maharashtratourism.net/gifs/head.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-origin: border-box;
+    height: 400px;
+   align-items: center;
+
+
+}
+@keyframes pulse{
+    0%
+    {
+        animation-duration: 10s;
+        background-image:url(https://terminaltour.co.id/wp-content/uploads/2015/12/mountain_cave_lake-1.jpg) ;
+
+    }
+    20%
+    {
+        animation-duration: 10s;
+        background:url(http://www.rajasthantourplanner.com/blog/wp-content/uploads/2016/07/Beautiful-Shimla-1024x768.jpg)
+
+    }
+    40%
+    {
+        animation-duration: 10s;
+      background-image:url(https://i.pinimg.com/originals/31/32/98/3132982fcc07c88c092521ff90d00d92.jpg) ;
+    }
+    60%
+    {
+        animation-duration: 10s;
+      background-image:url( https://www.hlimg.com/images/stories/738X538/1%20South%20India%20Package_1454563155e11.jpg) ;
+    opacity: 0.8;
+    }
+    80%
+    {
+        animation-duration: 10s;
+      background-image:url( https://i.pinimg.com/originals/ca/5f/b0/ca5fb01cbc2d2c7115494acd20b19cdd.jpg) ;
+    opacity: 0.8;
+    }
+    100%
+    {
+        animation-duration: 10s;
+      background-image:url( https://i.pinimg.com/originals/b0/50/c8/b050c8aeb73d94b37f47840ca8a45def.jpg) ;
+    opacity: 0.8;
+    }
+}
+
+footer{
+    height: 30px;
+    padding-top: 10px;
+}
+.t{
+  margin: 0;
+  padding: 0;
+    color:rgb(63, 133, 31);
+    font-size: 40px;
+    text-align: center;
+  font-family: robot slab;
+    text-shadow: 10px;
+   opacity: 1;
+}
+
+.head1{
+   text-align:center; 
+   text-decoration: rgb(240, 46, 46);
+   background-color: rgb(101, 129, 129);
+    font-size: 32px;
+    font-family: robot slab;
+    text-shadow: 2px;
+word-spacing: 100px;
+
+}
+
+.inp{
+    text-align:center;
+    transform: translateX(-9px);
+     font-size: 20px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ word-break: break-all;
+ word-wrap: none;
+ word-spacing: 150px;
+
+}
+main{
+  background: linear-gradient(to right , rgba(255, 182, 193, 0.616),rgba(250, 250, 75, 0.288),rgba(173, 216, 230, 0.356), rgba(155, 148, 148, 0.562));
+ opacity: 1;
+    padding-top: 30px;
+    text-align: center;
+    align-content: center;
+    height: 130px;
+    word-spacing: 80px;
+   }
+

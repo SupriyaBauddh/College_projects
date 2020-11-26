@@ -1,0 +1,117 @@
+body{
+    padding:-30px;
+     background-color: rgb(93, 151, 71);
+     background: url(http://www.imagetravelnepal.com/images/trip/trip1501581548.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+     height: 500px;
+    align-items: center;
+    animation-name: pulse;
+ animation-duration: 60s;
+ animation-iteration-count: infinite;
+ opacity: 0.7;
+ }
+body:hover{
+    opacity: 1;
+     background-color: rgb(93, 151, 71);
+     background: url(http://www.maharashtratourism.net/gifs/head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+     height: 500px;
+    align-items: center;
+}
+ @keyframes pulse{
+    0%
+    {
+        animation-duration: 10s;
+      background-image:url( https://i.pinimg.com/originals/0c/c8/18/0cc818731d4db51ac33dee1d083d90f9.jpg) ;
+    }
+     20%
+     {
+         animation-duration: 10s;
+       background-image:url( http://www.pixelstalk.net/wp-content/uploads/2016/08/Free-Download-Beautiful-Images-Full-HD.jpg) ;
+     }
+     40%
+     {
+         animation-duration: 10s;
+         background:url(http://www.rajasthantourplanner.com/blog/wp-content/uploads/2016/07/Beautiful-Shimla-1024x768.jpg)
+     }
+     60%
+     {
+         animation-duration: 10s;
+         background-image:url(https://terminaltour.co.id/wp-content/uploads/2015/12/mountain_cave_lake-1.jpg) ;
+     }
+     80%
+     {
+        animation-duration: 10s;
+      background-image:url( https://i.pinimg.com/originals/ca/5f/b0/ca5fb01cbc2d2c7115494acd20b19cdd.jpg) ;
+    }
+    100%
+    {
+        animation-duration: 10s;
+        background-image:url(https://terminaltour.co.id/wp-content/uploads/2015/12/mountain_cave_lake-1.jpg) ;
+    }
+ }
+ header{
+  height: 90px;
+  background-color: aliceblue;
+      color:rgb(63, 133, 31);
+      font-size: 30px;
+      text-align: center;
+    font-family: robot slab;
+     opacity: 1;
+}
+main{
+height:600px;
+}
+.foot{
+  height: 40px;
+   text-decoration: rgb(240, 46, 46);
+   background-color: rgb(101, 129, 129);
+    font-size: 32px;
+    font-family: robot slab;
+    text-shadow: 2px;
+word-spacing: 100px;
+text-align: center;
+position: static;
+}
+
+#fm{  
+    border: black;
+    border-style: double;
+    width:400px;
+    background-color:white;
+    padding:20px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:auto;
+}
+#fm1{
+    padding-top:40%;
+    border: black;
+    border-style: double;
+    width:300px;
+    background-color:white;
+    padding:20px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:auto;
+}
+h4{
+    text-align: center;
+}
+.faqmain{
+  height: 580px;
+  background-color: rgb(250, 226, 189);
+  min-width: fit-content;
+}
+.aboutmain{
+  height: 570px;
+  background-color: rgb(250, 226, 189);
+  min-width: fit-content;
+}
+.ab{
+  font-size: 15px;
+}
